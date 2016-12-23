@@ -5,8 +5,8 @@
     android:versionName="1.0">
 
     <uses-sdk
-        android:minSdkVersion="15"
-        android:targetSdkVersion="15" />
+        android:minSdkVersion="18"
+        android:targetSdkVersion="18" />
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -44,6 +44,7 @@
         android:theme="@style/AppTheme">
         <service android:name=".service.UpdateService" />
         <service android:name=".service.MqttService" />
+        <service android:name=".polling.PollingService" />
 
         <receiver
             android:name=".service.WifiBroad"
@@ -79,7 +80,8 @@
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="landscape"
             android:theme="@android:style/Theme.Light.NoTitleBar" />
-        <activity android:name=".TeacherLoginActivity"></activity>
+        <activity android:name=".TeacherLoginActivity" />
+        <activity android:name=".TeacherOperationActivity"></activity>
     </application>
 
 </manifest>

@@ -5,8 +5,8 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="15"
-        android:targetSdkVersion="15" />
+        android:minSdkVersion="18"
+        android:targetSdkVersion="18" />
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -44,6 +44,7 @@
         android:theme="@style/AppTheme" >
         <service android:name="com.hongshi.hongshiandroid.service.UpdateService" />
         <service android:name="com.hongshi.hongshiandroid.service.MqttService" />
+        <service android:name="com.hongshi.hongshiandroid.polling.PollingService" />
 
         <receiver
             android:name="com.hongshi.hongshiandroid.service.WifiBroad"
@@ -79,6 +80,7 @@
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="landscape"
             android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity android:name="com.hongshi.hongshiandroid.TeacherLoginActivity" />
     </application>
 
 </manifest>

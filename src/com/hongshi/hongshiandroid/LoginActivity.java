@@ -107,10 +107,7 @@ public class LoginActivity extends BaseActivity implements ProgressGenerator.OnC
         tvForgetPassword.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-
-
-
-
+                startActivity(TeacherLoginActivity.class);
             }
         });
     }
