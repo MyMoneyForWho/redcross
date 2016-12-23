@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/login_margin_top"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        style="@style/MarginStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/login_margin_top"
+        android:orientation="vertical" >
+
+        <com.hongshi.hongshiandroid.view.ContainsEmojiEditText
+            android:id="@+id/account"
+            style="@style/EditViewStyle"
+            android:hint="@string/et_account_hint"
+            android:inputType="text" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dip"
+            android:background="@color/devide_line" />
+
+        <com.hongshi.hongshiandroid.view.ContainsEmojiEditText
+            android:id="@+id/password"
+            style="@style/EditViewStyle"
+            android:hint="@string/et_password_hint"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <com.hongshi.hongshiandroid.view.processbtn.ActionProcessButton
+        android:id="@+id/btnSignIn"
+        style="@style/MarginStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_text_height"
+        android:layout_marginTop="@dimen/login_login_top"
+        android:text="@string/login"
+        android:textColor="@color/login_text_color"
+        android:textSize="@dimen/text_size"
+        custom:colorComplete="@color/green_complete"
+        custom:colorNormal="@color/blue_normal"
+        custom:colorPressed="@color/blue_pressed"
+        custom:colorProgress="@color/purple_progress"
+        custom:textComplete="@string/success"
+        custom:textProgress="@string/login_loading" />
+
+    <RelativeLayout
+        style="@style/MarginStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/text_padding_big" >
+
+        <TextView
+            android:id="@+id/tv_no_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:text="@string/no_account"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/tv_forget_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/forget_password"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size" />
+    </RelativeLayout>
+
+
+</LinearLayout><!-- From: file:/E:/studio-work-space/redcross/res/layout/activity_login.xml -->

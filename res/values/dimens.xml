@@ -1,0 +1,116 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- login activity -->
+    <dimen name="login_margin_top">48dip</dimen>
+    <dimen name="login_login_top">30dip</dimen>
+    <dimen name="login_register_top">40dip</dimen>
+    <dimen name="login_text_height">48dip</dimen>
+    <dimen name="login_margin_bottom">60dip</dimen>
+    <dimen name="login_third_margin_bottom">48dip</dimen>
+    <dimen name="login_third_margin">96dip</dimen>
+
+    <!-- Standard -->
+    <dimen name="left_margin">10dip</dimen>
+    <dimen name="right_margin">10dip</dimen>
+    <dimen name="top_margin">10dip</dimen>
+    <dimen name="bottom_margin">10dip</dimen>
+    <dimen name="title_text_size_big">24sp</dimen>
+    <dimen name="title_text_size">18sp</dimen>
+    <dimen name="title_text_size_small">16sp</dimen>
+    <dimen name="text_size">14sp</dimen>
+    <dimen name="label_size">12sp</dimen>
+    <dimen name="text_height">48dip</dimen>
+    <dimen name="text_padding_small">2dip</dimen>
+    <dimen name="text_padding">5dip</dimen>
+    <dimen name="text_padding_big">10dip</dimen>
+    <dimen name="text_padding_bigger">15dip</dimen>
+    <dimen name="title_height">48dip</dimen>
+    <dimen name="grid_item_height">60dip</dimen>
+    <dimen name="user_width">90dip</dimen>
+    <dimen name="index_width">40dip</dimen>
+    <dimen name="message_name_width">120dip</dimen>
+    <!-- 头像长宽 -->
+    <dimen name="portrait_width">36dip</dimen>
+    <dimen name="portrait_height">36dip</dimen>
+    <!-- 认证图标长宽 -->
+    <dimen name="auth_width">12dip</dimen>
+    <dimen name="auth_height">12dip</dimen>
+    <!-- 认证图标长宽 -->
+    <dimen name="user_auth_width">20dip</dimen>
+    <dimen name="user_auth_height">20dip</dimen>
+    <!-- listview 间隔 -->
+    <dimen name="list_divider">5dip</dimen>
+    <!-- 组件之间的间隔 -->
+    <dimen name="view_divider">10dip</dimen>
+    <!-- listview中的textview padding -->
+    <dimen name="list_textview_padding">2dip</dimen>
+    <!-- process_button -->
+    <dimen name="corner_radius">2dip</dimen>
+    <dimen name="layer_padding">3dip</dimen>
+    <!-- type 长宽 -->
+    <dimen name="type_width">40dip</dimen>
+    <dimen name="type_height">40dip</dimen>
+
+    <!-- 今日江湖label头像 -->
+    <dimen name="jrjh_label_width">20dip</dimen>
+    <dimen name="jrjh_label_height">20dip</dimen>
+
+    <!-- dialog -->
+    <dimen name="dialog_padding">25dip</dimen>
+
+    <!-- my fragment -->
+    <dimen name="star_img_padding">2dip</dimen>
+    <dimen name="my_info_height">100dip</dimen>
+    <dimen name="his_info_height">120dip</dimen>
+    <dimen name="my_head_portrait">80dip</dimen>
+    <dimen name="my_head_portrait_padding">2dip</dimen>
+    <dimen name="my_head_height">76dip</dimen>
+
+    <!-- person_info -->
+    <dimen name="info_text_width">60dip</dimen>
+    <dimen name="info_text_width_big">100dip</dimen>
+
+    <!-- message activity -->
+    <dimen name="message_width">60dip</dimen>
+    <dimen name="message_height">60dip</dimen>
+    <dimen name="message_text_height">30dip</dimen>
+
+    <!-- chat activity -->
+    <dimen name="chat_left_margin">10dip</dimen>
+    <dimen name="chat_right_margin">10dip</dimen>
+    <dimen name="chat_image_margin">5dip</dimen>
+    <dimen name="chat_image_width">30dip</dimen>
+    <dimen name="chat_image_height">30dip</dimen>
+    <dimen name="chat_edit_height">35dip</dimen>
+    <dimen name="chat_margin_top">5dip</dimen>
+    <dimen name="chat_icon_width">40dip</dimen>
+    <dimen name="chat_icon_height">40dip</dimen>
+    <dimen name="face_layout_height">160dip</dimen>
+    <dimen name="dot_layout_height">20dip</dimen>
+    <dimen name="face_height">28dip</dimen>
+    <dimen name="copy_menu_width">55dip</dimen>
+    <dimen name="copy_menu_height">28dip</dimen>
+
+    <!-- help activity -->
+    <dimen name="help_text_height">50dip</dimen>
+    <dimen name="help_layout_padding">20dip</dimen>
+    <dimen name="help_invitation_width">90dip</dimen>
+    <!-- myEntry activity -->
+    <dimen name="my_entry_margin_top">10dip</dimen>
+
+    <!-- jinri fragment -->
+    <dimen name="jinri_item_height">72dip</dimen>
+    <dimen name="view_small_padding">5dip</dimen>
+    <dimen name="view_padding">10dip</dimen>
+
+    <!-- 下拉刷新字体 -->
+    <dimen name="picture_pull_to_refresh_loading_text_size">14dip</dimen>
+    <dimen name="picture_pull_to_refresh_last_update_time_text_size">10dip</dimen>
+    <dimen name="picture_pull_to_refresh_last_update_time_top_margin">6dip</dimen>
+    <dimen name="picture_pull_to_refresh_footer_height">40dip</dimen>
+
+</resources>
